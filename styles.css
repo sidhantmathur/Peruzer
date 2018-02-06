@@ -1,0 +1,118 @@
+
+.navbar {
+    overflow: hidden;
+    background-color: lightgreen;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.navbar a {
+    display: block;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.signIn {
+    float: right;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.main {
+    margin-top: 80px;
+    /* Used in this example to enable scrolling */
+}
+.vidContainer {
+    background: gray;
+    opacity: 0.5;
+    z-index: -2;
+    position: relative;
+}
+
+video {
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.overlay {
+    background: rgba(0,0,0,0);
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    box-shadow: 1px 1px 2px 3px #ccc;
+}
+
+.col {
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 7vw;
+}
+
+
+.title {
+    color: green;
+}
+
+.jumbotron {
+    text-align: center;
+    z-index: 3;
+}
+
+
+
+.footer {
+    padding-bottom: 1rem;
+}
+
+button {
+    text-align: center;
+    color: black;
+    font-weight: 200;
+    font-size: 100%;
+    background: lightgreen;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 20px 0;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+button:hover {
+    background: green;
+}
+
+button:active {
+    outline: none;
+}
+
+.examples {
+    background: lightgreen;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+}
+.examples:hover {
+    background: lightgreen;
+}
