@@ -11,7 +11,7 @@ Users will be able to create their own quizzes, and add data to databases via a 
 I will create curated surveys for people to use. 
 
 
-
+- Clean up CSS
 - Add Back End
     - Sign in
     - Survey Creation 
