@@ -97,6 +97,10 @@ button {
     outline: none;
 }
 
+#btn2 {
+    margin-top: 0;
+}
+
 button:hover {
     background: green;
 }
